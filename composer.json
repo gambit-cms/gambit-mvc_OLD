@@ -1,0 +1,25 @@
+{
+    "name": "gambit-cms/gambit-mvc",
+    "description": " ",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2",
+        "mvc",
+        "cms"
+    ],
+    "homepage": "https://github.com/gambit-cms/gambit-mvc",
+    "autoload": {
+        "psr-4": {
+            "Gambit\\Mvc\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.23",
+        "ext-intl" : "*",
+        "zendframework/zend-eventmanager": "~2.5",
+        "zendframework/zend-modulemanager": "~2.5",
+        "zendframework/zend-mvc": "~2.5",
+        "zendframework/zend-servicemanager": "~2.5",
+        "zendframework/zend-stdlib": "~2.5"
+    }
+}
